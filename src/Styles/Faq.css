@@ -1,0 +1,14 @@
+
+.heading{
+    color: rgba(86,43,149,1);
+    font-weight: 800 !important;
+    margin-bottom: 30px;
+
+}
+.faq{
+  margin: 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.payment{
+    margin: 50px 0px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.paymentCard{
+    width: 30%;
+    border-radius: 20px !important;
+    padding: 10px 5px 30px;
+    text-align: left;
+    color: white;
+}

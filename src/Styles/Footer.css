@@ -1,0 +1,22 @@
+.footer{
+    width: auto;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+    padding: 60px 0px;
+    background-color: #EBEAFA;
+    color: rgba(86,43,149,1);
+}
+.footerLogo{
+    width: auto;
+}
+.tableDiv{
+    /* color: rgba(86,43,149,1); */
+    width: 24% !important; 
+}
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
