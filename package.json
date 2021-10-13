@@ -2,6 +2,7 @@
   "name": "nft-generator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://BushraSheeraz.github.io/nft-generator/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -11,14 +12,18 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-rc.0",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "save-dev": "^0.0.1-security",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "pre deploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
