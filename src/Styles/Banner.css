@@ -30,7 +30,7 @@
     margin: 50px 20px 300px;
 }
 .paySection{
-    /* width: 30%; */
+    width: 30%;
     text-align: left;
 }
 .paySection p{
@@ -66,5 +66,6 @@
     }
     .paySection{
         width: auto !important;
+        padding: 10px 20px;
     }
 }
