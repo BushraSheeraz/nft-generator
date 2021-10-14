@@ -5,6 +5,8 @@
     top: 0;
     width: 100%;
     color: white;
+    border-bottom-left-radius: 170px;
+    border-bottom-right-radius: 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;

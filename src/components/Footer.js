@@ -30,7 +30,7 @@ function Footer() {
                     </ul>
 
                 </div> */}
-                <Table className="tableDiv">
+                <Table className="tableDiv" style={{color:'rgba(86,43,149,1)'}}>
                     <thead>
                         <tr>
                             <th>Home</th>
