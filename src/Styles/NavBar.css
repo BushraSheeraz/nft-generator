@@ -4,4 +4,11 @@
     background: transparent;
     border: 1px solid white;
     color: white;
+    width: max-content;
+}
+
+@media screen and (min-width: 800px) {
+    .navButton{
+        width: max-content;
+    }
 }

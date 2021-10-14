@@ -21,6 +21,9 @@ h3{
     justify-content: space-between;
     width: 27%;
 }
+.paymentCard-table tr td{
+    padding: 10px 5px;
+}
 .middle button{
     border-radius: 30px;
     padding: 10px 20px;
@@ -34,4 +37,24 @@ h3{
     background: #EBEAFA;
     border: 2px solid rgba(86,43,149,1);
     color: rgba(86,43,149,1);
+}
+
+
+@media screen and (max-width: 800px) {
+    .middle{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .middleButtons{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        width: auto;
+    }
+    .middle button{
+        margin: 10px 0px;
+    }
 }

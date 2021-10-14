@@ -21,7 +21,7 @@ function Banner() {
             </div>
             <Container className="pay">
                 <div className="paySection">
-                    <h3 style={{ fontSize: '30px' }}>Pay for</h3>
+                    <p style={{ fontSize: '30px' }}>Pay for</p>
                     <h2>What you need</h2>
                     <p>Pay for what you need,no hidden fee
                         Pay for what you need,no hidden fee for

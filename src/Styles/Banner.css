@@ -1,12 +1,4 @@
 
-h1{
-    font-size: 32px;
-    font-weight: 600 !important;
-}
-p{
-    font-size: 18px;
-    text-align: left;
-}
 .banner{
     background: linear-gradient(90deg, rgba(73,62,216,1) 0%, rgba(86,43,149,1) 100%) !important;
     position: absolute;
@@ -20,7 +12,6 @@ p{
     padding: 180px 30px 80px;
 }
 .bannerHeadings{
-    /* width: 30%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +28,7 @@ p{
     margin: 50px 20px 300px;
 }
 .paySection{
-    width: 30%;
+    /* width: 30%; */
     text-align: left;
 }
 .paySection p{
@@ -64,9 +55,14 @@ p{
     color: 'white';
     font-size: '20px';
 }
-.dollarInput{
-    /* padding: 10px 4px;
-    background: transparent;
-    border: 2px solid white;
-    border-radius: 6px; */
+
+
+@media screen and (max-width: 800px) {
+    .pay{
+       display: flex;
+       flex-direction: column;
+    }
+    .paySection{
+        width: auto !important;
+    }
 }
