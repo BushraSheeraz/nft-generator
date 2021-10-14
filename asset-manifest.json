@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/nft-generator/static/css/main.e689dee5.chunk.css",
-    "main.js": "/nft-generator/static/js/main.fdc5b55e.chunk.js",
-    "main.js.map": "/nft-generator/static/js/main.fdc5b55e.chunk.js.map",
-    "runtime-main.js": "/nft-generator/static/js/runtime-main.c0866663.js",
-    "runtime-main.js.map": "/nft-generator/static/js/runtime-main.c0866663.js.map",
+    "main.css": "/nft-generator/static/css/main.43fcec0f.chunk.css",
+    "main.js": "/nft-generator/static/js/main.d1138dd1.chunk.js",
+    "main.js.map": "/nft-generator/static/js/main.d1138dd1.chunk.js.map",
+    "runtime-main.js": "/nft-generator/static/js/runtime-main.6b517037.js",
+    "runtime-main.js.map": "/nft-generator/static/js/runtime-main.6b517037.js.map",
     "static/css/2.c1256375.chunk.css": "/nft-generator/static/css/2.c1256375.chunk.css",
-    "static/js/2.6e147ab7.chunk.js": "/nft-generator/static/js/2.6e147ab7.chunk.js",
-    "static/js/2.6e147ab7.chunk.js.map": "/nft-generator/static/js/2.6e147ab7.chunk.js.map",
-    "static/js/3.44cdb2fe.chunk.js": "/nft-generator/static/js/3.44cdb2fe.chunk.js",
-    "static/js/3.44cdb2fe.chunk.js.map": "/nft-generator/static/js/3.44cdb2fe.chunk.js.map",
+    "static/js/2.36f47679.chunk.js": "/nft-generator/static/js/2.36f47679.chunk.js",
+    "static/js/2.36f47679.chunk.js.map": "/nft-generator/static/js/2.36f47679.chunk.js.map",
+    "static/js/3.fec8cef7.chunk.js": "/nft-generator/static/js/3.fec8cef7.chunk.js",
+    "static/js/3.fec8cef7.chunk.js.map": "/nft-generator/static/js/3.fec8cef7.chunk.js.map",
     "index.html": "/nft-generator/index.html",
     "static/css/2.c1256375.chunk.css.map": "/nft-generator/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.e689dee5.chunk.css.map": "/nft-generator/static/css/main.e689dee5.chunk.css.map",
-    "static/js/2.6e147ab7.chunk.js.LICENSE.txt": "/nft-generator/static/js/2.6e147ab7.chunk.js.LICENSE.txt",
+    "static/css/main.43fcec0f.chunk.css.map": "/nft-generator/static/css/main.43fcec0f.chunk.css.map",
+    "static/js/2.36f47679.chunk.js.LICENSE.txt": "/nft-generator/static/js/2.36f47679.chunk.js.LICENSE.txt",
     "static/media/Logo.798c8c06.PNG": "/nft-generator/static/media/Logo.798c8c06.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0866663.js",
+    "static/js/runtime-main.6b517037.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.6e147ab7.chunk.js",
-    "static/css/main.e689dee5.chunk.css",
-    "static/js/main.fdc5b55e.chunk.js"
+    "static/js/2.36f47679.chunk.js",
+    "static/css/main.43fcec0f.chunk.css",
+    "static/js/main.d1138dd1.chunk.js"
   ]
 }
