@@ -19,39 +19,41 @@ function Banner() {
                         We offer two adorable plans</p>
                 </div>
             </div>
-            <Container className="pay">
-                <div className="paySection">
-                    <p style={{ fontSize: '30px' }}>Pay for</p>
-                    <h2>What you need</h2>
-                    <p>Pay for what you need,no hidden fee
-                        Pay for what you need,no hidden fee for
-                        what you need, no hidden fee need,
-                        no hidden fee</p>
-                </div>
-                <div className="pricing">
-                    <h2>How many artworks you need?</h2>
-                    <Form.Label>Number of artworks</Form.Label>
-                    <InputGroup className="mb-3">
-                        <input style={{
-                            background: 'transparent',
-                            border: '2px solid white',
-                            borderRadius: '5px',
-                            padding: '10px 5px',
-                            color: 'white',
-                            fontSize: '20px'
-                        }} value={price} onChange={(e) => handleChange(e)} />
-                    </InputGroup>
-                    <Form.Label>Price</Form.Label>
-                    <InputGroup className="mb-3"  >
-                        <input  value={price} style={{
-                            background: 'transparent',
-                            border: 'none',
-                            padding: '10px 5px',
-                            color: 'white',
-                            fontSize: '20px'
-                        }} />
-                    </InputGroup>
+            <Container>
+                <div className="pay">
+                    <div className="paySection">
+                        <p style={{ fontSize: '30px' }}>Pay for</p>
+                        <h2>What you need</h2>
+                        <p>Pay for what you need,no hidden fee
+                            Pay for what you need,no hidden fee for
+                            what you need, no hidden fee need,
+                            no hidden fee</p>
+                    </div>
+                    <div className="pricing">
+                        <h2>How many artworks you need?</h2>
+                        <Form.Label>Number of artworks</Form.Label>
+                        <InputGroup className="mb-3">
+                            <input style={{
+                                background: 'transparent',
+                                border: '2px solid white',
+                                borderRadius: '5px',
+                                padding: '10px 5px',
+                                color: 'white',
+                                fontSize: '20px'
+                            }} value={price} onChange={(e) => handleChange(e)} />
+                        </InputGroup>
+                        <Form.Label>Price</Form.Label>
+                        <InputGroup className="mb-3"  >
+                            <input value={price} style={{
+                                background: 'transparent',
+                                border: 'none',
+                                padding: '10px 5px',
+                                color: 'white',
+                                fontSize: '20px'
+                            }} />
+                        </InputGroup>
 
+                    </div>
                 </div>
             </Container>
         </>
